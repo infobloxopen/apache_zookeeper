@@ -8,7 +8,7 @@ issues_url       'https://github.com/bbaugher/apache_zookeeper/issues'
 source_url       'https://github.com/bbaugher/apache_zookeeper'
 chef_version     '>= 12.5'
 
-depends "java", 'v4.3.0'
+depends "java", '= 4.3.0'
 depends "ulimit"
 
 %w{ ubuntu centos }.each do |os|
